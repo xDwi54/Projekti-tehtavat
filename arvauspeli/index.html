@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="js/main.js"></script>
+    <title>Arvauspeli</title>
+</head>
+<body>
+    <div class="palk"></div>
+    <div class="hed">
+        <h1 id="h1-yla">Arvauspeli</h1>
+    </div>
+    <div class="peli">
+        <p id="p1-peli">Tietokone arpoo numeron 1-10 ja sinun pitää yrittää arvata oikea numero! GLHF</p>
+        <p id="p1-peli1">Aina kun arvaat oikein arvo uusi numero ja jatka peliä!</p>
+        <div class="peli-pist">
+            <p id="pist">0</p>
+            <p id="numon">Numero on: </p>
+            <p id="gz"></p>
+            <p id="arvottu"></p>
+        </div>
+        <div class="pelis">
+            <button id="peli-nappi" onclick="arpoa()">Arvo</button>
+            <input type="text" id="inpt">
+            <button id="peli-nappi1" onclick="peli()">Tarkista</button>
+        </div>
+    </div>
+</body>
+</html>
