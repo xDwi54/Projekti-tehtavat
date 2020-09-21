@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body {
+    background: rgb(120,77,113);
+    background: radial-gradient(circle, rgba(120,77,113,1) 0%, rgba(37,9,23,1) 100%);
+}
+
+#h1 {
+    color: pink;
+}
+.ok {
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    float:left;
+    margin-left: 727px;
+    background-color: purple;
+    border-radius: 5%;
+}
+.nam {
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-weight: 300;
+}   
+
+#syota, #syota2, #syota3, #syota4 {
+    color: turquoise;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="Java/main.js"></script>
+</head>
+<body>
+
+    <div id="slide_bg">
+            <center>
+            <div class="div-otsikko">
+                <header id="Otsikko">To-Do juttuja</header>
+                <h1 id="syota-txt">Syötä teksti syöttölaatikkoon lisätäksesi tehtävän.</h1>
+                <h1 id="napauta-txt">napauta tehtävää kun se on valmis.</h1>
+                <h1 id="poista-txt">Napauta x-painiketta poistaaksesi tehtävän listalta.</h1> 
+                <div class="red">
+                    <h1 id="syota"></h1>
+                </div>
+            </div>
+            <div class="inputit">
+                <form>
+                    <input type="text" name="userinput" placeholder="Lisää tehtävä" id="inputti">
+                    <input type="button" value="Lisää" onclick="AddLi(userinput.value)" id="nappula">
+                    
+                </form>
+                <span id="out">
+            </div>
+            </center>
+    </div>
+</body>
+</html>
