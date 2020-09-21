@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./java.js"></script>    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="ok">
+    <h1 id="h1">Kirjautumis lomake</h1>
+    <form action="./admin/process-form.php" method="POST"></form>
+    <p>
+        <label class="nam" >Nimi:</label>
+        <br>
+        <input type="text" name="nimi" id="nimi">
+        <p id="syota"></p>
+    </p>
+    <p>
+         <label class="nam">Ikä:</label>
+        <br>
+        <input type="text" name="ika" id="ika">
+        <p id="syota2"></p>
+    </p>
+</form>
+
+<label class="nam">Millainen koneen käyttäjä olet?</label>
+<br>
+<input type="radio" name="joku2" value="himo"> Himopelaaja
+<br>
+<input type="radio" name="joku2" value="kayta"> Käytän opiskeluun
+<br>
+<input type="radio" name="joku2" value="en"> En käytä konetta
+<br>
+<p id="syota3"></p>
+<br>
+<label class="nam">Mitä mieltä olet sivustani tähän asti?</label>
+<br>
+<input type="checkbox" id="joiku" value="tod"> Todella hieno
+<br>
+<input type="checkbox" id="joiku1" value="amma"> Ammattimaisesti tehny
+<br>
+<input type="checkbox" id="joiku2" value="ostan"> Ostan sulta!
+<br>
+<p id="syota4"></p>
+<label class="nam">Mikä on lempiaineesi Keudassa</label>
+<br>
+<select name="mika_attribuutti">
+    <option value="ammat">Ammattiaineet</option>
+    <option value="yto">Yto aineet</option>
+</select>
+<br>
+<label class="nam">Kerro, miten kehittäisit sivujani</label>
+<br>
+<textarea name="Teksti" cols="50" rows="5"></textarea>
+<br>
+<button onclick="kissa()">fadfdsgds</button>
+</div>
+    
+</body>
+</html>
