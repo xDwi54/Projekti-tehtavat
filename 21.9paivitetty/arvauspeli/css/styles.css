@@ -38,36 +38,21 @@ body {
     font-family: 'Asap', sans-serif;   
 }
 .pelis {
-    margin-left: 560px;
 }
-#peli-nappi, #peli-nappi1 {
+#peli-nappi1 {
     background-color: grey;
     border-style: none;
-    width: 100px;
+    width: 160px;
     height: 40px;
     border: none;
     color: white;
     font-family: 'Asap', sans-serif; 
-}
-#peli-nappi:hover {
-    -webkit-animation: changeColor 0.4s forwards;
-    animation: changeColor 0.4s forwards;
-    border-style: none;
-    width: 100px;
-    height: 40px;
-    border: none;
-    color: white;
-    font-family: 'Asap', sans-serif; 
+    outline: none;
+    margin-top: 10px;
 }
 #peli-nappi1:hover {
     -webkit-animation: changeColor 0.4s forwards;
     animation: changeColor 0.4s forwards;
-    border-style: none;
-    width: 100px;
-    height: 40px;
-    border: none;
-    color: white;
-    font-family: 'Asap', sans-serif; 
 }
 @-webkit-keyframes changeColor{
     0%{background: grey;}
@@ -80,6 +65,7 @@ body {
     border: none;
     color: black;
     font-family: 'Asap', sans-serif; 
+    outline: none;
 }
 .peli-pist {
     background-color: rgb(82, 82, 82);;
