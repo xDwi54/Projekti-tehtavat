@@ -20,6 +20,10 @@ body {
     background-color: rgb(199, 197, 197);
     color: black;
 }
+#nappiac { 
+    text-align: center;
+    padding: 0;
+}
 .nappiddd {
     background-color: rgb(255, 255, 255);
     border: none;
