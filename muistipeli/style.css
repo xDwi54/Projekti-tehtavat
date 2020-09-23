@@ -1,0 +1,64 @@
+body {
+    background-image: url("fd.jpg");
+}
+
+.rivi {
+    text-align: center;
+}
+.kort {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.kort.done {
+    cursor: default;
+}
+.kort.done:hover {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.color-hidden {
+    background-color: grey;
+}
+
+
+
+
+
+
+
